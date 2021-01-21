@@ -2,8 +2,21 @@ Answer the following, add your answer below each question:
 
 1- How many commits have been made to the repository you cloned?
 
+	10 commits. I counted them using "git log --graph"
+
 2- How many branches does it have?
+
+	One. Master. Used "git branch"
 
 3- What is the ID of the commit in which the author added styles?
 
+	commit 02c4216b257ed21e36ffc45980cffcfd79103e43
+	Found it using "git log" and reading through the list
+	of commits.
+
+
 4- How many lines of code were added between the second and the third commit?
+
+	Used "git diff 4df8 02c4" --stat
+	15 lines were added for styles.css
+	1 line was added for quiz.html
